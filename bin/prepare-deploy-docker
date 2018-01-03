@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 
-HOST=example.com
+HOST=maz.me
 
 cd .ansible
 
-docker run --rm -d -t -i --name $HOST dreamconception/phoenix-build-elixir-ubuntu16:0.0.1
+docker run --rm -d -t -i --name $HOST sidha/phoenix-build-elixir-ubuntu16:0.0.1
 
 # Add deploy user
 docker exec $HOST bash -c "useradd -ms /bin/bash deploy"

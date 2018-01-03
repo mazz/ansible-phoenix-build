@@ -16,7 +16,7 @@ use Mix.Config
 config :ansible_phoenix_build, AnsiblePhoenixBuildWeb.Endpoint,
   load_from_system_env: false,
   http: [port: 8888],
-  url: [host: "example.com", port: 80],
+  url: [host: "maz.me", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 # Do not print debug messages in production
@@ -29,7 +29,7 @@ config :logger, level: :info
 #
 #     config :ansible_phoenix_build, AnsiblePhoenixBuildWeb.Endpoint,
 #       ...
-#       url: [host: "example.com", port: 443],
+#       url: [host: "maz.me", port: 443],
 #       https: [:inet6,
 #               port: 443,
 #               keyfile: System.get_env("SOME_APP_SSL_KEY_PATH"),

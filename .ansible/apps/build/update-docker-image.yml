@@ -6,8 +6,8 @@
     - name: Build and upload docker image
       docker_image:
          path: ./
-         name: dreamconception/phoenix-build-elixir-ubuntu16
-         repository: dreamconception/phoenix-build-elixir-ubuntu16
+         name: sidha/phoenix-build-elixir-ubuntu16
+         repository: sidha/phoenix-build-elixir-ubuntu16
          tag: 0.0.1
          pull: yes
          push: yes
